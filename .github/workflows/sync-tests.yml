@@ -10,19 +10,7 @@ jobs:
     strategy:
       matrix:
         repository:
-          - CreateWiki
-          - DataDump
           - FileStorageMonitor
-          - ImportDump
-          - IncidentReporting
-          - ManageWiki
-          - MatomoAnalytics
-          - PDFEmbed
-          - RemovePII
-          - RottenLinks
-          - SpriteSheet
-          - YouTube
-          - WikiDiscover
           - WikiForgeMagic
 
     runs-on: ubuntu-latest
